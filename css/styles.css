@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+p,h1, h2, h3, h4, a,li {
+	font-family:'Vollkorn', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#383c44;
+}
+
+p, li {
+	line-height:2em;
+}
+
+h1, h2, h3, h4 {
+	font-weight:bold;
+}
+
+.navbar {
+	background-color:#383c44;
+}
+
+nav a {
+	color:white;
+}
+
+
+nav a.nav-link.active {
+	color:#f8d23c;
+}
+
+nav a:hover {
+	color:#f8d23c;
+}
+
+.content {
+	padding-top:30px;
+	margin-bottom:100px;
+}
+
+.col-md-5 {
+	padding-right:20px;
+}
+
+footer{
+	background-color:#383c44;
+}
+
+.social {
+	margin:4px;
+}
+
+
+/*Homepage*/
+
+.input-group .input-group-btn .btn.subscribe {
+	background-color:#a9daa9;
+	font-family: 'Vollkorn', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+
+.input-group .input-group-btn .btn.subscribe:hover {
+	background-color: #96C496;
+	color:white;
+	-webkit-box-shadow: 1px 1px 2px 2px hsla(0,1%,59%,1.00);
+	box-shadow: 1px 1px 1px 1px hsla(0,1%,59%,1.00);
+}
+
+#email_2-error {
+	
+}
+
+/*Covenants*/
+
+.phase {
+	background-color:#a9daa9;
+	color:#383c44;
+	font-family:'Vollkorn', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border:none;
+	width:200px;
+	height:50px;
+	margin-bottom:8px;
+}
+
+.phase:hover {
+	background-color: #96C496;
+	-webkit-box-shadow: 1px 1px 2px 2px hsla(0,1%,59%,1.00);
+	box-shadow: 1px 1px 1px 1px hsla(0,1%,59%,1.00);
+}
+
+
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #3f8684;
+    box-shadow: none;
+}
+
+.submit {
+	background-color: #3f8684;
+	color: #ffffff;
+	font-family: 'Vollkorn', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border: none;
+	width:150px;
+	height:50px;
+	margin-bottom: 8px;
+	border-radius: 30px;
+	margin-bottom:30px;
+}
+
+.submit:hover {
+	background-color: #3C807F;
+	-webkit-box-shadow: 1px 1px 2px 2px hsla(0,1%,59%,1.00);
+	box-shadow: 1px 1px 1px 1px hsla(0,1%,59%,1.00);
+}
+
+.submit.focus, .submit:focus {
+	background-color:#3C807F;
+	
+}
+
+.map {
+	background-color: #3f8684;
+	color: #ffffff;
+	font-family: 'Vollkorn', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border: none;
+	width:150px;
+	height:50px;
+	margin-bottom: 8px;
+	border-radius: 30px;
+	margin-bottom:30px;
+	
+}
+
+.map:hover {
+	background-color: #3C807F;
+	-webkit-box-shadow: 1px 1px 2px 2px hsla(0,1%,59%,1.00);
+	box-shadow: 1px 1px 1px 1px hsla(0,1%,59%,1.00);
+}
+
+.policy {
+	background-color: #3f8684;
+	color: #ffffff;
+	font-family: 'Vollkorn', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border: none;
+	width:200px;
+	height:50px;
+	margin-bottom: 8px;
+	border-radius: 30px;
+	margin-bottom:30px;
+}
+
+.policy:hover {
+	background-color: #3C807F;
+	-webkit-box-shadow: 1px 1px 2px 2px hsla(0,1%,59%,1.00);
+	box-shadow: 1px 1px 1px 1px hsla(0,1%,59%,1.00);
+}
+
+form {
+	margin-top:30px;
+}
+
+.error {
+	color:red;
+}
+

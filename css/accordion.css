@@ -1,0 +1,119 @@
+@charset "UTF-8";
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+   -webkit-box-shadow: 1px 1px 2px 2px hsla(0,1%,59%,1.00);
+	box-shadow: 1px 1px 1px 1px hsla(0,1%,59%,1.00);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+#accordion {
+	margin-top:25px;
+}
+
+.accordionButton {
+	background-color: #a9daa9;
+	padding: 8px 0px 2px 8px;
+	margin-bottom: 4px;
+	border-radius: 8px;
+}
+.accordionButton h3 {
+	font-weight:normal;
+	font-size:20px;
+}
+.accordionButton:hover {
+	border-top-left-radius: 0px;
+	-webkit-box-shadow: 1px 1px 2px 2px hsla(0,1%,59%,1.00);
+	box-shadow: 1px 1px 1px 1px hsla(0,1%,59%,1.00);
+	background-color: #96C496;
+	color:white;
+}
+
+#accordion .row {
+	padding-top:16px;
+	padding-left:8px;
+}
+
+.questions {
+	padding-top:16px;
+	padding-left:8px;
+	padding-bottom:16px;
+}
+
+#accordion h4 {
+	font-weight:normal;
+	font-size:20px;
+}
+
+#acc {
+	margin-bottom:10px;
+	height:100%;
+}
+
+@media screen and (min-width:991px){
+
+/*board*/
+
+#greg {
+	margin-bottom:-160px
+}
+
+#dan {
+	margin-bottom:-350px;
+}
+
+#kyle {
+	margin-bottom:-280px;
+}
+
+#brian {
+	margin-bottom:-60px;
+}
+
+#marianne {
+	margin-bottom:-350px;
+}
+
+#tim {
+	margin-bottom:-250px;
+}
+
+/*Committees*/
+
+#acc {
+	margin-bottom:10px;
+}
+
+#comm {
+	margin-bottom:-400px;
+}
+
+#elections {
+	margin-bottom:-430px;
+}
+
+#events {
+	margin-bottom:-140px;
+}
+
+#welcome {
+	margin-bottom:-500px;
+}
+}
