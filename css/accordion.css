@@ -71,49 +71,4 @@ div.panel {
 
 /*board*/
 
-#greg {
-	margin-bottom:-160px
-}
-
-#dan {
-	margin-bottom:-350px;
-}
-
-#kyle {
-	margin-bottom:-280px;
-}
-
-#brian {
-	margin-bottom:-60px;
-}
-
-#marianne {
-	margin-bottom:-350px;
-}
-
-#tim {
-	margin-bottom:-250px;
-}
-
-/*Committees*/
-
-#acc {
-	margin-bottom:10px;
-}
-
-#comm {
-	margin-bottom:-400px;
-}
-
-#elections {
-	margin-bottom:-430px;
-}
-
-#events {
-	margin-bottom:-140px;
-}
-
-#welcome {
-	margin-bottom:-500px;
-}
 }
