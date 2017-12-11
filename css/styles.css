@@ -166,3 +166,7 @@ form {
 	font-family:'Vollkorn', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
+span.navbar-toggler-icon {
+	
+	color:white;
+}
